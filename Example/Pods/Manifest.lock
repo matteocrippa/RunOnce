@@ -1,0 +1,16 @@
+PODS:
+  - RunOnce (0.1.0)
+
+DEPENDENCIES:
+  - RunOnce (from `../`)
+
+EXTERNAL SOURCES:
+  RunOnce:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RunOnce: b415bc23a146197c4c5a59673e59e0ff81ea175c
+
+PODFILE CHECKSUM: df72f92374a346600b171f7eb2450c12287817a9
+
+COCOAPODS: 1.2.1

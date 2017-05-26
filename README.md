@@ -22,7 +22,7 @@ pod "RunOnce"
 
 ## Author
 
-matteocrippa, matteo@boostco.de
+matteocrippa, @_ghego
 
 ## License
 

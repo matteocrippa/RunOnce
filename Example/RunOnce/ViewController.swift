@@ -7,18 +7,31 @@
 //
 
 import UIKit
+import RunOnce
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    Run.once {
+      print("this will be shown only once")
     }
+    
+    Run.once("com.run.once2", action: { _ in
+      print("this will be shown only once 2")
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    }, fallback: { _ in
+      print("this be a fallback")
+    })
+    
+    // Do any additional setup after loading the view, typically from a nib.
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
+  
 }
 

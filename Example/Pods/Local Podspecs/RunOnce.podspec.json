@@ -1,0 +1,22 @@
+{
+  "name": "RunOnce",
+  "version": "0.1.0",
+  "summary": "A short description of RunOnce.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/matteocrippa/RunOnce",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "matteocrippa": "matteo@boostco.de"
+  },
+  "source": {
+    "git": "https://github.com/matteocrippa/RunOnce.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RunOnce/Classes/**/*"
+}
