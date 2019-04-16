@@ -9,14 +9,14 @@
 import Foundation
 
 open class Run {
-  open class func once(_ identifier: String = "com.run.once", action: (Void) -> Void) {
+  open class func once(_ identifier: String = "com.run.once", action: () -> Void) {
     if UserDefaults.standard.bool(forKey: identifier) == false {
       action()
       Run.runnedOnce(identifier)
     }
   }
   
-  open class func once(_ identifier: String = "com.run.once", action: (Void) -> Void, fallback: (Void) -> Void) {
+  open class func once(_ identifier: String = "com.run.once", action: () -> Void, fallback: () -> Void) {
     if UserDefaults.standard.bool(forKey: identifier) == false {
       action()
       Run.runnedOnce(identifier)
