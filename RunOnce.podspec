@@ -20,9 +20,6 @@ RunOnce helps you in easily run a task only once for the overall life of your ap
   s.author           = { 'matteocrippa' => '@_ghego' }
   s.source           = { :git => 'https://github.com/matteocrippa/RunOnce.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/_ghego'
-
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'RunOnce/Classes/**/*'
-
 end

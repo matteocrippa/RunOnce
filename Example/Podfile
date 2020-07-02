@@ -2,10 +2,7 @@ use_frameworks!
 
 target 'RunOnce_Example' do
   pod 'RunOnce', :path => '../'
-
   target 'RunOnce_Tests' do
     inherit! :search_paths
-
-    
   end
 end

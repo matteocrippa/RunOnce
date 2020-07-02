@@ -18,10 +18,10 @@ class ViewController: UIViewController {
       print("this will be shown only once")
     }
     
-    Run.once("com.run.once2", action: { _ in
+    Run.once("com.run.once2", action: { 
       print("this will be shown only once 2")
 
-    }, fallback: { _ in
+    }, fallback: { 
       print("this be a fallback")
     })
     
